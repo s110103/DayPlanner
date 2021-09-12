@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,9 +14,12 @@
 		06E8759726EE138F009E4200 /* DayPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06E8759526EE138F009E4200 /* DayPlanner.xcdatamodeld */; };
 		06E8759926EE1390009E4200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E8759826EE1390009E4200 /* Assets.xcassets */; };
 		06E8759C26EE1390009E4200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E8759A26EE1390009E4200 /* LaunchScreen.storyboard */; };
+		06E875A526EE1B2D009E4200 /* Ailerons-Typeface.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06E875A426EE1B2D009E4200 /* Ailerons-Typeface.otf */; };
+		D0EF1934ED3E7D4FFBBE2F43 /* Pods_DayPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EA0D4869915B172046F1A1 /* Pods_DayPlanner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03EA0D4869915B172046F1A1 /* Pods_DayPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E8758926EE138F009E4200 /* DayPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E8758C26EE138F009E4200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06E8758E26EE138F009E4200 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,9 @@
 		06E8759826EE1390009E4200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06E8759B26EE1390009E4200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06E8759D26EE1390009E4200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E875A426EE1B2D009E4200 /* Ailerons-Typeface.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ailerons-Typeface.otf"; sourceTree = "<group>"; };
+		AF33955B4B46A0BCCCBF3296 /* Pods-DayPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayPlanner.release.xcconfig"; path = "Target Support Files/Pods-DayPlanner/Pods-DayPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		B689419A267FD7DE1397D411 /* Pods-DayPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayPlanner.debug.xcconfig"; path = "Target Support Files/Pods-DayPlanner/Pods-DayPlanner.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EF1934ED3E7D4FFBBE2F43 /* Pods_DayPlanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +51,8 @@
 			children = (
 				06E8758B26EE138F009E4200 /* DayPlanner */,
 				06E8758A26EE138F009E4200 /* Products */,
+				E8489CFEF86EF6390C2D066F /* Pods */,
+				AED09E42E45FD32C25520A46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +67,7 @@
 		06E8758B26EE138F009E4200 /* DayPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				06E875A326EE1B13009E4200 /* fonts */,
 				06E8758C26EE138F009E4200 /* AppDelegate.swift */,
 				06E8758E26EE138F009E4200 /* SceneDelegate.swift */,
 				06E8759026EE138F009E4200 /* ViewController.swift */,
@@ -70,6 +80,31 @@
 			path = DayPlanner;
 			sourceTree = "<group>";
 		};
+		06E875A326EE1B13009E4200 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				06E875A426EE1B2D009E4200 /* Ailerons-Typeface.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		AED09E42E45FD32C25520A46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03EA0D4869915B172046F1A1 /* Pods_DayPlanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8489CFEF86EF6390C2D066F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B689419A267FD7DE1397D411 /* Pods-DayPlanner.debug.xcconfig */,
+				AF33955B4B46A0BCCCBF3296 /* Pods-DayPlanner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06E875A026EE1390009E4200 /* Build configuration list for PBXNativeTarget "DayPlanner" */;
 			buildPhases = (
+				6B45CEC4C0444D683175FC2A /* [CP] Check Pods Manifest.lock */,
 				06E8758526EE138F009E4200 /* Sources */,
 				06E8758626EE138F009E4200 /* Frameworks */,
 				06E8758726EE138F009E4200 /* Resources */,
+				369BF5D88DE60279C7EC73E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,10 +167,53 @@
 				06E8759C26EE1390009E4200 /* LaunchScreen.storyboard in Resources */,
 				06E8759926EE1390009E4200 /* Assets.xcassets in Resources */,
 				06E8759426EE138F009E4200 /* Main.storyboard in Resources */,
+				06E875A526EE1B2D009E4200 /* Ailerons-Typeface.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		369BF5D88DE60279C7EC73E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DayPlanner/Pods-DayPlanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DayPlanner/Pods-DayPlanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DayPlanner/Pods-DayPlanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B45CEC4C0444D683175FC2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayPlanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		06E8758526EE138F009E4200 /* Sources */ = {
@@ -287,6 +367,7 @@
 		};
 		06E875A126EE1390009E4200 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B689419A267FD7DE1397D411 /* Pods-DayPlanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +387,7 @@
 		};
 		06E875A226EE1390009E4200 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF33955B4B46A0BCCCBF3296 /* Pods-DayPlanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
